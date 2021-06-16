@@ -11,7 +11,12 @@
 import React from 'react';
 
 import {Search} from './src/components/Search';
+import {SafeAreaView} from 'react-native';
 
 export const App = () => {
-  return <Search />;
+  return (
+    <SafeAreaView>
+      <Search />
+    </SafeAreaView>
+  );
 };
