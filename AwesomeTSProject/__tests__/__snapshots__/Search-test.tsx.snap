@@ -1,0 +1,311 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`search renders correctly 1`] = `
+<View>
+  <TextInput
+    allowFontScaling={true}
+    placeholder="Titre du cocktail"
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "borderColor": "#000000",
+        "borderWidth": 1,
+        "height": 50,
+        "marginLeft": 5,
+        "marginRight": 5,
+        "paddingLeft": 5,
+      }
+    }
+    underlineColorAndroid="transparent"
+  />
+  <View
+    accessibilityRole="button"
+    accessibilityState={Object {}}
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Rechercher
+      </Text>
+    </View>
+  </View>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "idDrink": "11007",
+          "strAlcoholic": "Alcoholic",
+          "strCategory": "Ordinary Drink",
+          "strDrink": "Margarita",
+          "strGlass": "Cocktail glass",
+          "strIBA": "Contemporary Classics",
+          "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
+          "strTags": "IBA,ContemporaryClassic",
+        },
+        Object {
+          "idDrink": "11000",
+          "strAlcoholic": "Alcoholic",
+          "strCategory": "Cocktail",
+          "strDrink": "Mojito",
+          "strGlass": "Highball glass",
+          "strIBA": "Contemporary Classics",
+          "strInstructions": "Muddle mint leaves with sugar and lime juice. Add a splash of soda water and fill the glass with cracked ice. Pour the rum and top with soda water. Garnish and serve with straw.",
+          "strTags": "IBA,ContemporaryClassic,Alcoholic,USA,Asia,Vegan,Citrus,Brunch,Hangover,Mild",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "height": 190,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "image",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "gray",
+                "height": 180,
+                "margin": 5,
+                "width": 140,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "margin": 5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 3,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexWrap": "wrap",
+                    "fontSize": 20,
+                    "fontWeight": "bold",
+                    "paddingRight": 5,
+                  }
+                }
+              >
+                Margarita
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 10,
+                }
+              }
+            >
+              <Text
+                numberOfLines={6}
+                style={
+                  Object {
+                    "color": "#666666",
+                    "fontStyle": "italic",
+                  }
+                }
+              >
+                Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 3,
+                }
+              }
+            >
+              <Text
+                numberOfLines={1}
+                style={
+                  Object {
+                    "fontSize": 14,
+                    "textAlign": "right",
+                  }
+                }
+              >
+                IBA, ContemporaryClassic
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "height": 190,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "image",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "gray",
+                "height": 180,
+                "margin": 5,
+                "width": 140,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "margin": 5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 3,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexWrap": "wrap",
+                    "fontSize": 20,
+                    "fontWeight": "bold",
+                    "paddingRight": 5,
+                  }
+                }
+              >
+                Mojito
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 10,
+                }
+              }
+            >
+              <Text
+                numberOfLines={6}
+                style={
+                  Object {
+                    "color": "#666666",
+                    "fontStyle": "italic",
+                  }
+                }
+              >
+                Muddle mint leaves with sugar and lime juice. Add a splash of soda water and fill the glass with cracked ice. Pour the rum and top with soda water. Garnish and serve with straw.
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 3,
+                }
+              }
+            >
+              <Text
+                numberOfLines={1}
+                style={
+                  Object {
+                    "fontSize": 14,
+                    "textAlign": "right",
+                  }
+                }
+              >
+                IBA, ContemporaryClassic, Alcoholic, USA, Asia, Vegan, Citrus, Brunch, Hangover, Mild
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
