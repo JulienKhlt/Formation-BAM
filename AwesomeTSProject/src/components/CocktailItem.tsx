@@ -22,7 +22,7 @@ export const CocktailItem = (props: cocktail_container) => {
         </View>
         <View style={styles.tag_container}>
           <Text style={styles.tag_text} numberOfLines={1}>
-            {cocktail.strTags.replaceAll(',', ', ')}
+            {cocktail.strTags.replace(/,/g, ', ')}
           </Text>
         </View>
       </View>
