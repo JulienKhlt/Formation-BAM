@@ -3,7 +3,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import {Search} from '../src/components/Search';
 
-test('renders correctly', () => {
-  const tree = renderer.create(<Search />).toJSON();
-  expect(tree).toMatchSnapshot();
+test('search renders correctly', () => {
+  const search = renderer.create(<Search />).toJSON();
+  expect(search).toMatchSnapshot();
 });
