@@ -1,11 +1,27 @@
 import React from 'react';
-import {View, TextInput, Button, StyleSheet} from 'react-native';
+import {
+  View,
+  TextInput,
+  Button,
+  StyleSheet,
+  FlatList,
+  Text,
+} from 'react-native';
+
+import {cocktails} from '../../helpers/cocktailData';
+import {CocktailItem} from './CocktailItem';
+import {cocktail} from '../../types';
 
 export const Search = () => {
   return (
     <View>
       <TextInput style={styles.textinput} placeholder="Titre du cocktail" />
       <Button style={styles.textinput} title="Rechercher" onPress={() => {}} />
+      <FlatList
+        data={cocktails}
+        keyExtractor={item => item.idDrink.toString()}
+        renderItem={({item}) => <CocktailItem cocktail={item} />}
+      />
     </View>
   );
 };
