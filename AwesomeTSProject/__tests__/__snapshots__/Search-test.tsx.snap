@@ -3,7 +3,9 @@
 exports[`search renders correctly 1`] = `
 <View>
   <TextInput
+    accessibilityLabel="cocktail input"
     allowFontScaling={true}
+    onChangeText={[Function]}
     placeholder="Titre du cocktail"
     rejectResponderTermination={true}
     style={
@@ -63,24 +65,167 @@ exports[`search renders correctly 1`] = `
     data={
       Array [
         Object {
-          "idDrink": "11007",
-          "strAlcoholic": "Alcoholic",
-          "strCategory": "Ordinary Drink",
-          "strDrink": "Margarita",
-          "strGlass": "Cocktail glass",
-          "strIBA": "Contemporary Classics",
-          "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
-          "strTags": "IBA,ContemporaryClassic",
-        },
-        Object {
+          "dateModified": "2016-11-04 09:17:09",
           "idDrink": "11000",
           "strAlcoholic": "Alcoholic",
           "strCategory": "Cocktail",
+          "strCreativeCommonsConfirmed": "Yes",
           "strDrink": "Mojito",
+          "strDrinkAlternate": null,
+          "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/metwgh1606770327.jpg",
           "strGlass": "Highball glass",
           "strIBA": "Contemporary Classics",
+          "strImageAttribution": "anilaha https://pixabay.com/users/anilaha-16242978/",
+          "strImageSource": "https://pixabay.com/photos/cocktail-mojito-cocktail-recipe-5096281/",
+          "strIngredient1": "Light rum",
+          "strIngredient10": null,
+          "strIngredient11": null,
+          "strIngredient12": null,
+          "strIngredient13": null,
+          "strIngredient14": null,
+          "strIngredient15": null,
+          "strIngredient2": "Lime",
+          "strIngredient3": "Sugar",
+          "strIngredient4": "Mint",
+          "strIngredient5": "Soda water",
+          "strIngredient6": null,
+          "strIngredient7": null,
+          "strIngredient8": null,
+          "strIngredient9": null,
           "strInstructions": "Muddle mint leaves with sugar and lime juice. Add a splash of soda water and fill the glass with cracked ice. Pour the rum and top with soda water. Garnish and serve with straw.",
+          "strInstructionsDE": "Minzblätter mit Zucker und Limettensaft verrühren. Füge einen Spritzer Sodawasser hinzu und fülle das Glas mit gebrochenem Eis. Den Rum eingießen und mit Sodawasser übergießen. Garnieren und mit einem Strohhalm servieren.",
+          "strInstructionsES": null,
+          "strInstructionsFR": null,
+          "strInstructionsIT": "Pestare le foglie di menta con lo zucchero e il succo di lime.
+Aggiungere una spruzzata di acqua di seltz e riempi il bicchiere con ghiaccio tritato.
+Versare il rum e riempire con acqua di seltz.
+Guarnire con una fetta di lime, servire con una cannuccia.",
+          "strInstructionsZH-HANS": null,
+          "strInstructionsZH-HANT": null,
+          "strMeasure1": "2-3 oz ",
+          "strMeasure10": null,
+          "strMeasure11": null,
+          "strMeasure12": null,
+          "strMeasure13": null,
+          "strMeasure14": null,
+          "strMeasure15": null,
+          "strMeasure2": "Juice of 1 ",
+          "strMeasure3": "2 tsp ",
+          "strMeasure4": "2-4 ",
+          "strMeasure5": null,
+          "strMeasure6": null,
+          "strMeasure7": null,
+          "strMeasure8": null,
+          "strMeasure9": null,
           "strTags": "IBA,ContemporaryClassic,Alcoholic,USA,Asia,Vegan,Citrus,Brunch,Hangover,Mild",
+          "strVideo": null,
+        },
+        Object {
+          "dateModified": "2016-11-04 09:24:43",
+          "idDrink": "15841",
+          "strAlcoholic": "Alcoholic",
+          "strCategory": "Cocktail",
+          "strCreativeCommonsConfirmed": "No",
+          "strDrink": "Mojito Extra",
+          "strDrinkAlternate": null,
+          "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/vwxrsw1478251483.jpg",
+          "strGlass": "Collins glass",
+          "strIBA": null,
+          "strImageAttribution": null,
+          "strImageSource": null,
+          "strIngredient1": "Mint",
+          "strIngredient10": null,
+          "strIngredient11": null,
+          "strIngredient12": null,
+          "strIngredient13": null,
+          "strIngredient14": null,
+          "strIngredient15": null,
+          "strIngredient2": "Lemon juice",
+          "strIngredient3": "Dark rum",
+          "strIngredient4": "Club soda",
+          "strIngredient5": "Angostura bitters",
+          "strIngredient6": null,
+          "strIngredient7": null,
+          "strIngredient8": null,
+          "strIngredient9": null,
+          "strInstructions": "Put mint with lemon juice in a glas, mash the mint with a spoon, ice, rum & fill up with club soda. Top it with Angostura.",
+          "strInstructionsDE": "Minze mit Zitronensaft in ein Glas geben, Minze mit einem Löffel zerdrücken. Eis und Rum hinzufügen und mit Soda auffüllen. Krönen Sie es mit Angostura.",
+          "strInstructionsES": null,
+          "strInstructionsFR": null,
+          "strInstructionsIT": "Metti la menta con il succo di limone in un bicchiere, schiaccia la menta con un cucchiaio, ghiaccio, rum e riempila con la soda.
+Completalo con Angostura.",
+          "strInstructionsZH-HANS": null,
+          "strInstructionsZH-HANT": null,
+          "strMeasure1": "1/2 handful ",
+          "strMeasure10": null,
+          "strMeasure11": null,
+          "strMeasure12": null,
+          "strMeasure13": null,
+          "strMeasure14": null,
+          "strMeasure15": null,
+          "strMeasure2": "3 cl ",
+          "strMeasure3": "1/8 L Jamaican ",
+          "strMeasure4": "1/8 L ",
+          "strMeasure5": "8 drops ",
+          "strMeasure6": null,
+          "strMeasure7": null,
+          "strMeasure8": null,
+          "strMeasure9": null,
+          "strTags": null,
+          "strVideo": null,
+        },
+        Object {
+          "dateModified": null,
+          "idDrink": "178336",
+          "strAlcoholic": "Alcoholic",
+          "strCategory": "Cocktail",
+          "strCreativeCommonsConfirmed": "No",
+          "strDrink": "Blueberry Mojito",
+          "strDrinkAlternate": null,
+          "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/07iep51598719977.jpg",
+          "strGlass": "Highball glass",
+          "strIBA": null,
+          "strImageAttribution": null,
+          "strImageSource": null,
+          "strIngredient1": "Dark Rum",
+          "strIngredient10": null,
+          "strIngredient11": null,
+          "strIngredient12": null,
+          "strIngredient13": null,
+          "strIngredient14": null,
+          "strIngredient15": null,
+          "strIngredient2": "Lime Juice",
+          "strIngredient3": "Sugar",
+          "strIngredient4": "Blueberries",
+          "strIngredient5": "Lemon-lime soda",
+          "strIngredient6": "",
+          "strIngredient7": "",
+          "strIngredient8": null,
+          "strIngredient9": null,
+          "strInstructions": "Muddle the blueberries with the other ingredients and serve in a highball glass. Garnish with mint and a half slice of lime.",
+          "strInstructionsDE": null,
+          "strInstructionsES": null,
+          "strInstructionsFR": null,
+          "strInstructionsIT": "Pestare i mirtilli con gli altri ingredienti e servire in un bicchiere highball. Guarnire con la menta e mezza fetta di lime.",
+          "strInstructionsZH-HANS": null,
+          "strInstructionsZH-HANT": null,
+          "strMeasure1": "2 shots",
+          "strMeasure10": null,
+          "strMeasure11": null,
+          "strMeasure12": null,
+          "strMeasure13": null,
+          "strMeasure14": null,
+          "strMeasure15": null,
+          "strMeasure2": "1 shot",
+          "strMeasure3": "Dash",
+          "strMeasure4": "Whole",
+          "strMeasure5": "Top",
+          "strMeasure6": "",
+          "strMeasure7": "",
+          "strMeasure8": null,
+          "strMeasure9": null,
+          "strTags": null,
+          "strVideo": null,
         },
       ]
     }
@@ -107,105 +252,6 @@ exports[`search renders correctly 1`] = `
     windowSize={21}
   >
     <View>
-      <View
-        onLayout={[Function]}
-        style={null}
-      >
-        <View
-          style={
-            Object {
-              "flexDirection": "row",
-              "height": 190,
-            }
-          }
-        >
-          <Image
-            source={
-              Object {
-                "uri": "image",
-              }
-            }
-            style={
-              Object {
-                "backgroundColor": "gray",
-                "height": 180,
-                "margin": 5,
-                "width": 140,
-              }
-            }
-          />
-          <View
-            style={
-              Object {
-                "flex": 1,
-                "margin": 5,
-              }
-            }
-          >
-            <View
-              style={
-                Object {
-                  "flex": 3,
-                  "flexDirection": "row",
-                }
-              }
-            >
-              <Text
-                style={
-                  Object {
-                    "flex": 1,
-                    "flexWrap": "wrap",
-                    "fontSize": 20,
-                    "fontWeight": "bold",
-                    "paddingRight": 5,
-                  }
-                }
-              >
-                Margarita
-              </Text>
-            </View>
-            <View
-              style={
-                Object {
-                  "alignItems": "center",
-                  "flex": 10,
-                }
-              }
-            >
-              <Text
-                numberOfLines={6}
-                style={
-                  Object {
-                    "color": "#666666",
-                    "fontStyle": "italic",
-                  }
-                }
-              >
-                Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.
-              </Text>
-            </View>
-            <View
-              style={
-                Object {
-                  "flex": 3,
-                }
-              }
-            >
-              <Text
-                numberOfLines={1}
-                style={
-                  Object {
-                    "fontSize": 14,
-                    "textAlign": "right",
-                  }
-                }
-              >
-                IBA, ContemporaryClassic
-              </Text>
-            </View>
-          </View>
-        </View>
-      </View>
       <View
         onLayout={[Function]}
         style={null}
@@ -305,6 +351,173 @@ exports[`search renders correctly 1`] = `
           </View>
         </View>
       </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "height": 190,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "image",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "gray",
+                "height": 180,
+                "margin": 5,
+                "width": 140,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "margin": 5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 3,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexWrap": "wrap",
+                    "fontSize": 20,
+                    "fontWeight": "bold",
+                    "paddingRight": 5,
+                  }
+                }
+              >
+                Mojito Extra
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 10,
+                }
+              }
+            >
+              <Text
+                numberOfLines={6}
+                style={
+                  Object {
+                    "color": "#666666",
+                    "fontStyle": "italic",
+                  }
+                }
+              >
+                Put mint with lemon juice in a glas, mash the mint with a spoon, ice, rum & fill up with club soda. Top it with Angostura.
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "height": 190,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "image",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "gray",
+                "height": 180,
+                "margin": 5,
+                "width": 140,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "margin": 5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 3,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexWrap": "wrap",
+                    "fontSize": 20,
+                    "fontWeight": "bold",
+                    "paddingRight": 5,
+                  }
+                }
+              >
+                Blueberry Mojito
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 10,
+                }
+              }
+            >
+              <Text
+                numberOfLines={6}
+                style={
+                  Object {
+                    "color": "#666666",
+                    "fontStyle": "italic",
+                  }
+                }
+              >
+                Muddle the blueberries with the other ingredients and serve in a highball glass. Garnish with mint and a half slice of lime.
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "height": 0,
+          }
+        }
+      />
     </View>
   </RCTScrollView>
 </View>
