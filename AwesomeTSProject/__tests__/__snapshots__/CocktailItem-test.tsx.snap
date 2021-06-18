@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`mojito renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "height": 190,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "image",
+      }
+    }
+    style={
+      Object {
+        "backgroundColor": "gray",
+        "height": 180,
+        "margin": 5,
+        "width": 140,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "margin": 5,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 3,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "flex": 1,
+            "flexWrap": "wrap",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "paddingRight": 5,
+          }
+        }
+      >
+        Mojito
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 10,
+        }
+      }
+    >
+      <Text
+        numberOfLines={6}
+        style={
+          Object {
+            "color": "#666666",
+            "fontStyle": "italic",
+          }
+        }
+      >
+        Muddle mint leaves with sugar and lime juice. Add a splash of soda water and fill the glass with cracked ice. Pour the rum and top with soda water. Garnish and serve with straw.
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 3,
+        }
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          Object {
+            "fontSize": 14,
+            "textAlign": "right",
+          }
+        }
+      >
+        IBA, ContemporaryClassic, Alcoholic, USA, Asia, Vegan, Citrus, Brunch, Hangover, Mild
+      </Text>
+    </View>
+  </View>
+</View>
+`;
