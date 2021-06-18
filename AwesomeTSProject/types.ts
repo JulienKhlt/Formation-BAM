@@ -1,7 +1,7 @@
 export interface cocktail {
   idDrink: string;
   strDrink: string;
-  strTags: string;
+  strTags: string | null;
   strCategory: string;
   strIBA: string;
   strAlcoholic: string;

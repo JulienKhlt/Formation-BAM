@@ -20,11 +20,13 @@ export const CocktailItem = (props: cocktail_container) => {
             {cocktail.strInstructions}
           </Text>
         </View>
-        <View style={styles.tag_container}>
-          <Text style={styles.tag_text} numberOfLines={1}>
-            {cocktail.strTags.replace(/,/g, ', ')}
-          </Text>
-        </View>
+        {cocktail.strTags && (
+          <View style={styles.tag_container}>
+            <Text style={styles.tag_text} numberOfLines={1}>
+              {cocktail.strTags.replace(/,/g, ', ')}
+            </Text>
+          </View>
+        )}
       </View>
     </View>
   );
